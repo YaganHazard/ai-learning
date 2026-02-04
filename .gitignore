@@ -1,1 +1,47 @@
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+*.Rproj
+
+# Julia
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+*.jl.*.mem
+Manifest.toml
+.julia/
+
+# Stata
+*.dta
+*.gph
+*.smcl
+*.log
+*.stswp
+*.ster
+*.sthlp
